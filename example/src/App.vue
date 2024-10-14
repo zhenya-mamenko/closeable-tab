@@ -4,6 +4,16 @@
       <v-container>
         <v-row>
           <v-col>
+            <h1 class="display-1">Closeable Tab</h1>
+            <p class="mt-2">
+              This component is a Vue 3 (Vuetify 3 based) closeable tab designed for use with Vuetify <b>v-tabs</b> component.
+              It is a simple and easy-to-use component that allows you to create tabs, which can be closed by click on button.
+            </p>
+          </v-col>
+        </v-row>
+
+        <v-row>
+          <v-col>
             <v-tabs
               v-model="activeTab"
               class="mt-2 mb-0 ms-4 me-4"
