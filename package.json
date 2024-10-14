@@ -1,0 +1,42 @@
+{
+  "name": "@mamenko/closeable-tab",
+  "type": "module",
+  "private": false,
+  "version": "0.0.1",
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    ".": "./dist/closeable-tab.js"
+  },
+  "types": "./dist/types",
+  "keywords": [
+    "component",
+    "library",
+    "vue",
+    "vue3",
+    "vuetify",
+    "vuetify3"
+  ],
+  "author": "Zhenya Mamenko",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist/types"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.31",
+    "vuetify": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.24.7",
+    "@rollup/plugin-strip": "^3.0.4",
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "1.77.6",
+    "typescript": "^5.4.2",
+    "vite": "^5.3.3",
+    "vite-plugin-css-injected-by-js": "^3.5.0",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.1.6"
+  }
+}
