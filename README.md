@@ -1,6 +1,6 @@
 # CloseableTab
 
-This component is a Vue 3 (Vuetify 3 based) closeable tab designed for use `v-tabs` component.
+This component is a Vue 3 (Vuetify 3 based) closeable tab designed for use with `v-tabs` component.
 
 ## Installation
 
